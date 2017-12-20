@@ -5,6 +5,5 @@ install.packages(
       "Rcpp", "RcppArmadillo", "markdown", "dygraphs", "shiny",
       "htmltools", "shinydashboard", "shinytoastr", "RCurl",
       "RColorBrewer", "deseasonalize", "Lmoments", "moments",
-      "leaflet", "numDeriv", "alabama",
+      "leaflet", "numDeriv", "alabama" ),
       repo = "https://cloud.r-project.org" )
-
