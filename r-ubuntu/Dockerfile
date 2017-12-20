@@ -1,17 +1,10 @@
 ## Ubuntu image installing R, a number of required Linux packages, and some basic R packages.
-FROM thegreatwhiteshark/pandoc-ubuntu:1.0.0
+FROM thegreatwhiteshark/pandoc-ubuntu:1.17.2-0
 
 MAINTAINER theGreatWhiteShark <thetruephil@googlemail.com>
 
-# Set up a working directory
-WORKDIR /app
-
-# Copy the content of the current folder in the working directory
-# e.g. the required R packages
-ADD . /app
-
 ## Install additional Linux packages
-RUN apt-get update -y && apt-get install -y gcc g++ git libcurl4-openssl-dev curl coreutils bash wget gfortran fort77 libreadline6 libreadline6-dev xorg-dev bzip2 libbz2-dev liblzma-dev libtiff5-dev libpcre3-dev libxml2-dev libssl-dev libuv1-dev
+RUN apt-get update -y && apt-get install -y gfortran fort77 libreadline6 libreadline6-dev xorg-dev bzip2 libbz2-dev liblzma-dev libtiff5-dev libpcre3-dev libxml2-dev libssl-dev libuv1-dev
 
 
 ## Obtaining and compiling the R source
