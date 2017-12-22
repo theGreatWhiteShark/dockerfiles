@@ -25,6 +25,13 @@ installed.
 
 **R-3.4.0** compiled from source.
 
+### 1.1.2
+
+In addition installs the *libcairo2-dev* to enable the generation of
+pictures in `bookdown` without X.
+
+Is also more parsimony by deleting the downloaded R tar bundle.
+
 ### 1.1.1
 
 Adding the *unzip* package in order to install R packages using
@@ -55,6 +62,13 @@ Depends on *r-ubuntu:1.0.0*.
 
 An installation of all the required R packages for the
 [climex](https://github.com/theGreatWhiteShark/climex) R package.
+
+### 1.1.2
+
+Based on *r-ubuntu:1.1.2*.
+
+Also features the installation of the most recent *master* branch of
+the **climex** package via `devtools::install_github()`.
 
 ### 1.1.1
 

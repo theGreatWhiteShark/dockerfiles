@@ -1,6 +1,11 @@
 An **Ubuntu16.04** system with **Pandoc** and a compiled
 version of **R-3.4.0**
 
+### 1.1.2
+
+Installing the additional *libcairo2-dev* package. R is now able to
+generate pictures by calling e.g. `png( filename, type = "cairo" )`.
+
 ### 1.1.1
 
 Like 1.1.0 but also installs the *unzip* package. This one is required
