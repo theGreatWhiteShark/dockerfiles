@@ -10,6 +10,15 @@ deseasonalize, Lmoments, moments, leaflet, numDeriv, alabama*
 
 The actual **climex** package is not installed yet. 
 
+### 1.1.1
+
+Based on the **r-ubuntu:1.1.0** image instead of the *bookdown-r-package*
+previous versions build on. 
+
+It includes the **unzip** system package allowing for an installation of
+R packages using `devtools::install_github` function and features the
+installation of the **climex** package in version 1.2.0.
+
 ### 1.1.0
 
 Using **Pandoc 1.17.2**.

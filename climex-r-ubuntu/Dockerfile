@@ -2,7 +2,7 @@
 ## `bookdown' package.
 
 # Ubuntu image containing R-3.4.0 and a number of required Linux packages.
-FROM thegreatwhiteshark/bookdown-r-ubuntu:1.1.0
+FROM thegreatwhiteshark/r-ubuntu:1.1.1
 
 MAINTAINER theGreatWhiteShark <thetruephil@googlemail.com>
 
