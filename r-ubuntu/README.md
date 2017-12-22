@@ -1,6 +1,12 @@
 An **Ubuntu16.04** system with **Pandoc** and a compiled
 version of **R-3.4.0**
 
+### 1.1.1
+
+Like 1.1.0 but also installs the *unzip* package. This one is required
+for `devtools::install_github()` inside R (in the current CRAN
+release) to extract zip images. 
+
 ### 1.1.0
 
 This image depends on **Pandoc 1.17.2**. 

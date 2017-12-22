@@ -4,7 +4,7 @@ FROM thegreatwhiteshark/pandoc-ubuntu:1.17.2-0
 MAINTAINER theGreatWhiteShark <thetruephil@googlemail.com>
 
 ## Install additional Linux packages
-RUN apt-get update -y && apt-get install -y gfortran fort77 libreadline6 libreadline6-dev xorg-dev bzip2 libbz2-dev liblzma-dev libtiff5-dev libpcre3-dev libxml2-dev libssl-dev libuv1-dev
+RUN apt-get update -y && apt-get install -y gfortran fort77 libreadline6 libreadline6-dev xorg-dev bzip2 libbz2-dev liblzma-dev libtiff5-dev libpcre3-dev libxml2-dev libssl-dev libuv1-dev unzip
 
 
 ## Obtaining and compiling the R source
