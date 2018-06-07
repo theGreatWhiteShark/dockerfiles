@@ -1,3 +1,7 @@
+I'm leaving this sinking ship. If you like this project, checked out the maintained version on [GitLab.com](https://gitlab.com/theGreatWhiteShark/dockerfiles).
+
+---
+
 A collection of the [Docker](https://www.docker.com/) files I use for
 CI. The corresponding images can be found on
 [hub.docker.com](https://hub.docker.com/u/thegreatwhiteshark/).
